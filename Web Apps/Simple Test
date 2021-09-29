@@ -1,18 +1,18 @@
-id: JJHN3K3E_0GoCdFTFZAJoA
+id: 1J9c3DyYyk2_KNtf1hpclQ
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-09-29T03:58:43.9178690Z
+created: 2021-09-29T03:59:51.0099422Z
 protocol: 1
 tests:
 - id: pAVS4qYTL0q9aMUjYyxOfg
-  name: Simple Test - copy
+  name: Simple Test
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-29T03:58:44.0000000
-  modificationDate: 2021-09-29T03:58:44.0000000
+  modificationDate: 2021-09-29T03:59:51.0000000
   settings:
     automationAssistant: false
     appId: fC0Oi4K0rkKTCaIRpiMruA
