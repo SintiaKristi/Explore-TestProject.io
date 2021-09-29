@@ -1,18 +1,18 @@
-id: D3yoD8duPESMstuXMTq6cA
+id: 93NySq-zaU-ACJpolU7plQ
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-09-29T04:17:51.3888171Z
+created: 2021-09-29T04:18:10.2480902Z
 protocol: 1
 tests:
 - id: S9P2dnxja0SylOvJDPZH9w
-  name: Element-TextBox - copy
+  name: Element-TextBox
   description: This is testing one of the text-box elements
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-29T04:17:43.0000000
-  modificationDate: 2021-09-29T04:17:51.0000000
+  modificationDate: 2021-09-29T04:18:10.0000000
   settings:
     automationAssistant: true
     appId: EdWYZQfXJ06KxJbV3R44Lg
