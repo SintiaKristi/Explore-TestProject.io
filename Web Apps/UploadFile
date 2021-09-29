@@ -1,7 +1,7 @@
-id: IjVQ6FEmMkmUQjxqmV5Rqw
+id: dieD3sEcIUqgaAnmO-MFuQ
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-09-29T04:43:55.0955504Z
+created: 2021-09-29T04:44:31.2424108Z
 protocol: 1
 tests:
 - id: WLy7WHsFJ06FvuZIuueQYA
@@ -12,20 +12,19 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-29T04:21:41.0000000
-  modificationDate: 2021-09-29T04:24:50.0000000
+  modificationDate: 2021-09-29T04:44:31.0000000
   settings:
     automationAssistant: true
-    appId: fC0Oi4K0rkKTCaIRpiMruA
+    appId: 2fIlh_dCtkOF6QQC7F86Eg
     stepSleepTime: 500
     stepTimeout: 15000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   application:
-    id: fC0Oi4K0rkKTCaIRpiMruA
-    name: TestProject Example
-    description: TestProject example web application
-    url: https://example.testproject.io/web/
+    id: 2fIlh_dCtkOF6QQC7F86Eg
+    name: UploadCase
+    url: https://gofile.io/uploadFiles
     platform: Web
   steps:
   - id: U3dVVYZmqEaryzO6rYa_jw
@@ -54,7 +53,7 @@ tests:
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
-    value: https://example.testproject.io/web/
+    value: https://gofile.io/uploadFiles
     type: Input
   tags:
   - web-app
