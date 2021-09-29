@@ -1,7 +1,7 @@
-id: dieD3sEcIUqgaAnmO-MFuQ
+id: OYSx_gBIU0-J-lvTSnQIAw
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-09-29T04:44:31.2424108Z
+created: 2021-09-29T05:20:47.9797869Z
 protocol: 1
 tests:
 - id: WLy7WHsFJ06FvuZIuueQYA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-29T04:21:41.0000000
-  modificationDate: 2021-09-29T04:44:31.0000000
+  modificationDate: 2021-09-29T05:19:42.0000000
   settings:
     automationAssistant: true
     appId: 2fIlh_dCtkOF6QQC7F86Eg
@@ -50,14 +50,119 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: DBkWsYA8sE6k6qol716Qxg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: eZDGTCUB_0CGCjtIljG-aA
+      source: Store
+      addonId: xQczalN7yUK6-wtFItRTLA
+    parameterMaps:
+    - name: path
+      value: D:\SINTIA_NITIP\Mix\hm.jpg
+      direction: Input
+    - name: xpath
+      value: '{{uploadFile}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fjAFkY1DBEe_QrogVpUlVQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: Rd4kRPZQXEerH6sc3PZePQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KPi1vAIVjEm1SIoBzqRrqA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: Rd4kRPZQXEerH6sc3PZePQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://gofile.io/uploadFiles
     type: Input
+  - name: uploadFile
+    description: ''
+    value: //input[@type='file']
+    type: Input
   tags:
   - web-app
 auxTests: []
-elements: []
+elements:
+- id: Rd4kRPZQXEerH6sc3PZePQ
+  name: Show files
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#rowUploadSuccess-showFiles'
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Show files']
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/div[7]/div/div/div/div[3]/div/button
+    priority: 3
 projectParameters: []
-addons: []
+addons:
+- id: xQczalN7yUK6-wtFItRTLA
+  source: Store
+  version: 0.2
+  actions:
+  - id: eZDGTCUB_0CGCjtIljG-aA
+    name: Upload File using XPath
+    description: Upload a file to a specific element identifies by XPath
+    className: actions.UploadFileByXpathAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 39D3E443B9616B96F04ACC3BA72CCDBE1F694FAF804F11C21FFDB959ECCFA0D3
