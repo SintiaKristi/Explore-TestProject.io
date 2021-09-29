@@ -1,0 +1,64 @@
+id: vmfCGm9olE2LT_qss6IIWg
+projectId: _EitVDJPWE6jfP06yEFqvQ
+projectName: ExploreTestProject
+created: 2021-09-29T04:21:41.5222069Z
+protocol: 1
+tests:
+- id: WLy7WHsFJ06FvuZIuueQYA
+  name: UploadFile
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-09-29T04:21:41.0000000
+  modificationDate: 2021-09-29T04:21:41.0000000
+  settings:
+    automationAssistant: true
+    appId: fC0Oi4K0rkKTCaIRpiMruA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: fC0Oi4K0rkKTCaIRpiMruA
+    name: TestProject Example
+    description: TestProject example web application
+    url: https://example.testproject.io/web/
+    platform: Web
+  steps:
+  - id: U3dVVYZmqEaryzO6rYa_jw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://example.testproject.io/web/
+    type: Input
+  tags:
+  - web-app
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
