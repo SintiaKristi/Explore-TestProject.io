@@ -1,7 +1,7 @@
-id: vmfCGm9olE2LT_qss6IIWg
+id: IjVQ6FEmMkmUQjxqmV5Rqw
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-09-29T04:21:41.5222069Z
+created: 2021-09-29T04:43:55.0955504Z
 protocol: 1
 tests:
 - id: WLy7WHsFJ06FvuZIuueQYA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-29T04:21:41.0000000
-  modificationDate: 2021-09-29T04:21:41.0000000
+  modificationDate: 2021-09-29T04:24:50.0000000
   settings:
     automationAssistant: true
     appId: fC0Oi4K0rkKTCaIRpiMruA
