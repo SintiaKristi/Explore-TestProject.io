@@ -1,7 +1,7 @@
-id: T0SLG6hyDk2MV4rnbEWB1w
+id: 6oyYmxDF1EGLnv6xtLs_1g
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-09-30T09:57:23.1812381Z
+created: 2021-09-30T09:58:13.4936702Z
 protocol: 1
 tests:
 - id: DpRbdsU930-1ZCxdYppKQw
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-08-19T04:53:48.0000000
-  modificationDate: 2021-09-30T09:57:23.0000000
+  modificationDate: 2021-09-30T09:58:13.0000000
   settings:
     automationAssistant: false
     deviceId: J6AXGF01L977NAW
