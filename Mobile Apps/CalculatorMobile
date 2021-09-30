@@ -1,7 +1,7 @@
-id: dgf0Da0Sski9pXSYHlOK_w
+id: T0SLG6hyDk2MV4rnbEWB1w
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-09-30T09:56:36.2270388Z
+created: 2021-09-30T09:57:23.1812381Z
 protocol: 1
 tests:
 - id: DpRbdsU930-1ZCxdYppKQw
@@ -12,9 +12,10 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-08-19T04:53:48.0000000
-  modificationDate: 2021-09-30T09:56:36.0000000
+  modificationDate: 2021-09-30T09:57:23.0000000
   settings:
     automationAssistant: false
+    deviceId: J6AXGF01L977NAW
     appId: 0Ix4JvQIMkOAEpq6l4Y3ag
     stepSleepTime: 500
     stepTimeout: 15000
