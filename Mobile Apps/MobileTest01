@@ -1,0 +1,235 @@
+id: WPD0L9Svm0-sUm4HKm2c-A
+projectId: _EitVDJPWE6jfP06yEFqvQ
+projectName: ExploreTestProject
+created: 2021-09-30T09:55:51.4203423Z
+protocol: 1
+tests:
+- id: 3VCHfGnn_UWKKdCqOGhvQQ
+  name: MobileTest01
+  description: ''
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2021-09-09T03:53:01.0000000
+  modificationDate: 2021-09-30T09:55:51.0000000
+  settings:
+    automationAssistant: false
+    deviceId: J6AXGF01L977NAW
+    appId: Syt5uy0YUkiN8wEiSNf1ng
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: Syt5uy0YUkiN8wEiSNf1ng
+    androidActivity: com.google.android.keep.activities.BrowseActivity
+    androidPackage: com.google.android.keep
+    name: Keep Notes
+    platform: Android
+  steps:
+  - id: 6vPIckQl_k6FTyGlTlM4pg
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZED-zRgxykeflrD8_hIkjA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 62PAl6OUNUuU0lYH9dI5pg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AAFCwujR8Eu39fGJZ5fWlQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: VMarz3xTdUu6yQL4l__BHw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TGNINhxsR0SgWbk8gQAxtA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 0owKIvy3PUe6sQEy4l9gcQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ij4ARKCNKUazmrOT6pkD2w
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 0owKIvy3PUe6sQEy4l9gcQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ini contoh tulisan.
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CJ7KbozQG0-R5oRjSXzKVg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: nxUfhhGIv0KAZu-BwbvO1w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+  tags:
+  - mobile
+auxTests: []
+elements:
+- id: 62PAl6OUNUuU0lYH9dI5pg
+  name: New text note
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjA
+    name: android.widget.ImageButton
+    source: System
+  locators:
+  - name: ID
+    value: com.google.android.keep:id/new_note_button
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ImageButton[@content-desc = 'New text note']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup/android.widget.ImageButton
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.view.ViewGroup[2]/android.widget.ImageButton[1]
+    priority: 3
+- id: VMarz3xTdUu6yQL4l__BHw
+  name: com.google.android.keep:id/title_edit...
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjM
+    name: android.widget.LinearLayout
+    source: System
+  locators:
+  - name: ID
+    value: com.google.android.keep:id/title_editor_fragment
+    priority: 0
+  - name: XPATH
+    value: //android.support.v7.widget.RecyclerView/android.widget.LinearLayout/android.widget.LinearLayout
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[3]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.support.v7.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]
+    priority: 2
+- id: 0owKIvy3PUe6sQEy4l9gcQ
+  name: Note
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: com.google.android.keep:id/edit_note_text
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Note']
+    priority: 1
+  - name: XPATH
+    value: //android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[3]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.support.v7.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.EditText[1]
+    priority: 3
+- id: nxUfhhGIv0KAZu-BwbvO1w
+  name: Pin
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: com.google.android.keep:id/menu_pin
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@content-desc = 'Pin']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.support.v7.widget.LinearLayoutCompat/android.widget.TextView[1]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[3]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.support.v7.widget.LinearLayoutCompat[1]/android.widget.TextView[1]
+    priority: 3
+projectParameters: []
+addons: []
