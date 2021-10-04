@@ -1,7 +1,7 @@
-id: cKSdtcOuS0KL8M78xw0Ffw
+id: UbyiK7GUWkuSaq0YretbEA
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-10-04T04:43:57.5171663Z
+created: 2021-10-04T05:00:42.6825643Z
 protocol: 1
 tests:
 - id: __3PWURKMUa-RUjGoY5k8w
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-09-22T13:51:27.0000000
-  modificationDate: 2021-10-04T04:43:57.0000000
+  modificationDate: 2021-10-04T04:49:03.0000000
   settings:
     automationAssistant: false
     deviceId: J6AXGF01L977NAW
@@ -104,32 +104,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: xIqSZGgniky-gvHS-Sn4Jw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: vPQQ206ewUGR5grgp2bDaA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 2c399e26-8d02-41a7-a8d4-acfeda14fb5b
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: UEIhNlbhKU6J7L8xESr1Yg
     comments: ''
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Action
     elementId: vPQQ206ewUGR5grgp2bDaA
@@ -150,7 +129,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 6
+    order: 5
     repeat: 1
     type: Action
     elementId: -2t1qDdzYU-eIHpKzQGWwQ
@@ -170,7 +149,7 @@ tests:
   - id: MG7RVx3GYUWFOzHQOQQkhA
     enabled: true
     invertResult: false
-    order: 7
+    order: 6
     repeat: 1
     type: Action
     settings:
@@ -205,7 +184,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 8
+    order: 7
     repeat: 1
     type: Action
     elementId: vPQQ206ewUGR5grgp2bDaA
@@ -226,7 +205,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 9
+    order: 8
     repeat: 1
     type: Action
     elementId: 61JfA4JwkEaaZj9X7oIPog
@@ -246,7 +225,7 @@ tests:
   - id: KhFVgXzKPUiYLBD7sO5Y2g
     enabled: true
     invertResult: false
-    order: 10
+    order: 9
     repeat: 1
     type: Action
     settings:
@@ -281,7 +260,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 11
+    order: 10
     repeat: 1
     type: Action
     elementId: vPQQ206ewUGR5grgp2bDaA
@@ -302,7 +281,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 12
+    order: 11
     repeat: 1
     type: Action
     elementId: RUazTSAQOUWzG_9yiTTUXg
@@ -322,7 +301,7 @@ tests:
   - id: mvQHJkPFyUSeNmacYG4pKA
     enabled: true
     invertResult: false
-    order: 13
+    order: 12
     repeat: 1
     type: Action
     settings:
@@ -357,7 +336,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 14
+    order: 13
     repeat: 1
     type: Action
     elementId: vPQQ206ewUGR5grgp2bDaA
@@ -378,7 +357,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 15
+    order: 14
     repeat: 1
     type: Action
     elementId: U-6osSH7QEOyalO_WgiDvg
@@ -398,7 +377,7 @@ tests:
   - id: EWIt_tWjt0e-8wS4RlcTGw
     enabled: true
     invertResult: false
-    order: 16
+    order: 15
     repeat: 1
     type: Action
     settings:
@@ -433,7 +412,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 17
+    order: 16
     repeat: 1
     type: Action
     elementId: vPQQ206ewUGR5grgp2bDaA
@@ -454,7 +433,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 18
+    order: 17
     repeat: 1
     type: Action
     elementId: JeIn0snUsU2iZX9vuDLhNg
@@ -466,6 +445,132 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kdG6R83e-k6Mi-V2PBWs-Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: MwSCCvppd0aBQs2pj7sI1g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _RI0UTabdkO-eaj90thVQw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: MwSCCvppd0aBQs2pj7sI1g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HknOUZJAbkWLSkgFdcnA8Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: 1PPmvxHyqEinhR1hN7QPbA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wvxaSu48ckiF-lhUypD7_A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: 7fh9a4SvnkOoGzQdwvubaA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _La4ihmgFEuctHRddvc0iw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: 7fh9a4SvnkOoGzQdwvubaA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2EBmi0mqwkClBK3UD-d_uQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: jL5ZvA-cb0-JbgPSNGFWAQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
     conditions: []
@@ -615,5 +720,72 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]
     priority: 1
+- id: MwSCCvppd0aBQs2pj7sI1g
+  name: Start Messaging
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Start Messaging']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ScrollView/android.widget.FrameLayout/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.TextView[1]
+    priority: 2
+- id: 1PPmvxHyqEinhR1hN7QPbA
+  name: Please allow Telegram to receive call...
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Please allow Telegram to receive calls so that we can automatically confirm your phone number.']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.LinearLayout/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
+    priority: 2
+- id: 7fh9a4SvnkOoGzQdwvubaA
+  name: OK
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.TextView[1]
+    priority: 2
+- id: jL5ZvA-cb0-JbgPSNGFWAQ
+  name: ALLOW
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: com.android.packageinstaller:id/permission_allow_button
+    priority: 0
+  - name: XPATH
+    value: //android.widget.Button[@text = 'ALLOW']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[2]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[2]
+    priority: 3
 projectParameters: []
 addons: []
