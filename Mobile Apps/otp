@@ -1,7 +1,7 @@
-id: JXJr9ytL-0-lon9JOg9Rcw
+id: wu1vnApB2EG1j90KVblS8Q
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-10-04T05:19:55.7162835Z
+created: 2021-10-04T09:09:37.6415732Z
 protocol: 1
 tests:
 - id: __3PWURKMUa-RUjGoY5k8w
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2021-09-22T13:51:27.0000000
-  modificationDate: 2021-10-04T05:19:41.0000000
+  modificationDate: 2021-10-04T09:09:31.0000000
   settings:
     automationAssistant: false
     deviceId: J6AXGF01L977NAW
@@ -848,9 +848,9 @@ tests:
     type: Action
     elementId: 8E9e68P5L0qoG8e_R0aU3g
     settings:
-      sleepTime: -1
+      sleepTime: 1000
       timeout: -1
-      sleepTiming: Inherit
+      sleepTiming: After
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -881,6 +881,93 @@ tests:
     - name: keys
       value: ''
       direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yFfqJxcjCEKZVpD0Y6SbOw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 36
+    repeat: 1
+    type: Action
+    elementId: 8E9e68P5L0qoG8e_R0aU3g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{No_Telp}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _2VJUgrNPUu89ZdYnyB3ig
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 37
+    repeat: 1
+    type: Action
+    elementId: 4f9GWqzpqECCSxOFDdPQiA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dm1HPKfBb0qUaeyqODJixA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 38
+    repeat: 1
+    type: Action
+    elementId: q9rzcvfm3kWSLVVyafjQ3Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: F0ultR3OBkibHa4je2PpoQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 39
+    repeat: 1
+    type: Action
+    elementId: 7fh9a4SvnkOoGzQdwvubaA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -1169,12 +1256,41 @@ elements:
   locators:
   - name: XPATH
     value: //android.widget.EditText[@text = '']
-    priority: 0
-  - name: XPATH
-    value: //android.widget.EditText[2]
     priority: 1
   - name: XPATH
+    value: //android.widget.EditText[2]
+    priority: 0
+  - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[2]
+    priority: 2
+- id: 4f9GWqzpqECCSxOFDdPQiA
+  name: ANDROID.WIDGET.IMAGEVIEW1
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.ImageView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.ImageView[1]
+    priority: 1
+- id: q9rzcvfm3kWSLVVyafjQ3Q
+  name: Please allow Telegram to read the cal...
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Please allow Telegram to read the call log so that we can automatically enter your code for you.']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.LinearLayout/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
     priority: 2
 projectParameters: []
 addons: []
