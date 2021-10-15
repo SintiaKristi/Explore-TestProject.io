@@ -1,7 +1,7 @@
-id: OYSx_gBIU0-J-lvTSnQIAw
+id: P_rC-oEaCUSOtKkCT_aB9w
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-09-29T05:20:47.9797869Z
+created: 2021-10-15T05:56:08.4005753Z
 protocol: 1
 tests:
 - id: WLy7WHsFJ06FvuZIuueQYA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-09-29T04:21:41.0000000
-  modificationDate: 2021-09-29T05:19:42.0000000
+  modificationDate: 2021-10-15T05:49:38.0000000
   settings:
     automationAssistant: true
     appId: 2fIlh_dCtkOF6QQC7F86Eg
@@ -69,7 +69,7 @@ tests:
       addonId: xQczalN7yUK6-wtFItRTLA
     parameterMaps:
     - name: path
-      value: D:\SINTIA_NITIP\Mix\hm.jpg
+      value: C:\Users\Sinkatze\Documents\SINKATZE\sin.jpg
       direction: Input
     - name: xpath
       value: '{{uploadFile}}'
