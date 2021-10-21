@@ -1,7 +1,7 @@
-id: 6aa_lUGhF0a0vGnINutAXQ
+id: FG8ogGE6EUiRR_VRIJYzJQ
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-10-21T04:02:40.7344534Z
+created: 2021-10-21T04:05:35.7819082Z
 protocol: 1
 tests:
 - id: wlhTN6MkkEGJabcmKWfuHQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-20T16:04:28.0000000
-  modificationDate: 2021-10-21T04:00:59.0000000
+  modificationDate: 2021-10-21T04:03:03.0000000
   settings:
     automationAssistant: false
     appId: NxSi5Pj1V0yIeosyEzxE5g
@@ -845,7 +845,7 @@ tests:
       value: ''
       direction: Input
     - name: imgName
-      value: ''
+      value: important_message
       direction: Input
     - name: resultFullPath
       value: ''
