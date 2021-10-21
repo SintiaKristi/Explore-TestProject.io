@@ -1,7 +1,7 @@
-id: 9ieoD8NY502o9AdXFT4mJg
+id: r9veBi_DDUShM4hqvQEJRg
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-10-20T16:04:28.3144668Z
+created: 2021-10-21T02:58:20.4946500Z
 protocol: 1
 tests:
 - id: wlhTN6MkkEGJabcmKWfuHQ
@@ -12,9 +12,9 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-20T16:04:28.0000000
-  modificationDate: 2021-10-20T16:04:28.0000000
+  modificationDate: 2021-10-21T02:58:20.0000000
   settings:
-    automationAssistant: true
+    automationAssistant: false
     appId: NxSi5Pj1V0yIeosyEzxE5g
     stepSleepTime: 500
     stepTimeout: 15000
@@ -50,12 +50,131 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: YrBHuKKAika135ak0FT_iQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: f4uEfxLr0kqhMxW51kDlRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GJNiWdcbMkaERDeW0rgZfA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: f4uEfxLr0kqhMxW51kDlRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WE2Bn6zLwEmKx25b2Q1t_Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: f4uEfxLr0kqhMxW51kDlRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: YhniouIG6EqVKTYy7bmUdA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: QE2Eg2pgTUa6gKEmZt5D7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://www.amazon.com/
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: f4uEfxLr0kqhMxW51kDlRw
+  name: All
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#nav-hamburger-menu'
+    priority: 0
+  - name: XPATH
+    value: "//a[. = '\n    \n    All\n  ']"
+    priority: 1
+  - name: XPATH
+    value: //div[4]/div/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/header/div/div[4]/div[1]/a
+    priority: 3
+- id: QE2Eg2pgTUa6gKEmZt5D7w
+  name: Electronics
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Electronics']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/ul[1]/li[7]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div[2]/div/ul[1]/li[7]/a
+    priority: 2
 projectParameters: []
 addons: []
