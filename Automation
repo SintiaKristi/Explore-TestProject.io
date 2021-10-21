@@ -1,7 +1,7 @@
-id: FG8ogGE6EUiRR_VRIJYzJQ
+id: s1Ml6CjPBECD8OpPEXFkGw
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-10-21T04:05:35.7819082Z
+created: 2021-10-21T04:19:34.4600867Z
 protocol: 1
 tests:
 - id: wlhTN6MkkEGJabcmKWfuHQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-10-20T16:04:28.0000000
-  modificationDate: 2021-10-21T04:03:03.0000000
+  modificationDate: 2021-10-21T04:16:39.0000000
   settings:
     automationAssistant: false
     appId: NxSi5Pj1V0yIeosyEzxE5g
@@ -822,14 +822,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: VbZnVqnqnkSd86sBujTwsQ
+  - id: LgrBGtS8DE-1K5OCtqhlMA
     comments: ''
     enabled: true
     invertResult: false
     order: 38
     repeat: 1
     type: Addon
-    elementId: m8ZeV3Vyw02E2v4BvsRLoQ
+    elementId: wqKR5ktatkKMcM_NRjWJug
     settings:
       sleepTime: -1
       timeout: -1
@@ -842,14 +842,37 @@ tests:
       addonId: n3lQIzPLoUig5Ab2fjfGzA
     parameterMaps:
     - name: path
-      value: ''
+      value: C:\sintia
       direction: Input
     - name: imgName
-      value: important_message
+      value: sintia
       direction: Input
     - name: resultFullPath
       value: ''
       direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: sLSHl4mLu0CHzVnQxdZT6g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 39
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6cc71ddb-1aaf-433c-aa94-56d944aac433
+      source: System
+    parameterMaps:
+    - name: index
+      value: ''
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -1151,6 +1174,19 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[1]/div/div/div/h4
     priority: 2
+- id: wqKR5ktatkKMcM_NRjWJug
+  name: Important Message
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[1]/div/div/div
+    priority: 1
 projectParameters: []
 addons:
 - id: n3lQIzPLoUig5Ab2fjfGzA
