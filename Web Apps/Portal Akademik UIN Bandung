@@ -1,0 +1,464 @@
+id: _cQuQ4fxm0aP_BviuJZBKg
+projectId: _EitVDJPWE6jfP06yEFqvQ
+projectName: ExploreTestProject
+created: 2021-10-29T03:29:53.2271204Z
+protocol: 1
+tests:
+- id: cPQlDZrC90yX_3pQUDy1kw
+  name: Portal Akademik UIN Bandung
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-08-19T05:28:50.0000000
+  modificationDate: 2021-09-29T04:10:12.0000000
+  settings:
+    automationAssistant: true
+    appId: V-RCnpQW0UaRm0YE6orzMw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: V-RCnpQW0UaRm0YE6orzMw
+    name: Portal Akademik
+    url: https://salam.uinsgd.ac.id/
+    platform: Web
+  steps:
+  - id: -FH0hg3KD0uS3sKQGOEw2Q
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dFHKixZL-UWe7xjPhFXXTA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: FN5lDJoSf0ypac2YSj_5VQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jy1MYvicKkG6pMv2k_-JFQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: FN5lDJoSf0ypac2YSj_5VQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 1157050157
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SxRkkjCgakmOvP0bRyJEgw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: pm1guSy60UqsRvVMsczLcQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ucf0auB2-0uJpHqlCXoliA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: pm1guSy60UqsRvVMsczLcQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 11melankolis97
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pJ_CynxGYkSmqZUx4sahoQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 5HqJ-NPfnU-8C_3wid1ktw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: T63y1KzAXEqb0ysIGzgQPg
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 11rmyG-L-EiorqtpAfvEvQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZnGqyzZTB0am_80VF-0GXQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 902
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9UVh8PUsIEC77FOiWgYY3w
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: LbHw7623B0-A7ZEVO3y8rg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 82ApNzANKke4iWHFCcYkZA
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: plfd9O2ze0SBNP72MmQXuw
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6cc71ddb-1aaf-433c-aa94-56d944aac433
+      source: System
+    parameterMaps:
+    - name: index
+      value: 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kHeoR9zZeEGjkxXzOFzkug
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 0
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BecaGf9zWkqUmm9kQo4LRA
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: mdHUPsfi1UOGJdUfA1JAnA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dZ5F-bYvf0uvCkhs0Chk3g
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: 4fC5P8mf0EWvgnU3gvbBjw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://salam.uinsgd.ac.id/
+    type: Input
+  tags:
+  - website
+auxTests: []
+elements:
+- id: FN5lDJoSf0ypac2YSj_5VQ
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#username'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = ' Username']
+    priority: 2
+  - name: XPATH
+    value: //div[1]/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div[2]/form/div[2]/div[1]/input
+    priority: 4
+- id: pm1guSy60UqsRvVMsczLcQ
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = ' Password']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div[2]/form/div[2]/div[2]/input
+    priority: 4
+- id: 5HqJ-NPfnU-8C_3wid1ktw
+  name: Sign In
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div[2]/form/div[3]/div[2]/button
+    priority: 2
+- id: 11rmyG-L-EiorqtpAfvEvQ
+  name: Transkrip Nilai
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Transkrip Nilai']
+    priority: 0
+  - name: XPATH
+    value: //li[9]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div[1]/div/ul/li[1]/ul/li[9]/a
+    priority: 2
+- id: LbHw7623B0-A7ZEVO3y8rg
+  name: btnCetak
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='btnCetak']"
+    priority: 0
+  - name: XPATH
+    value: //form/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div[2]/div/div/div/div/form/input
+    priority: 2
+- id: mdHUPsfi1UOGJdUfA1JAnA
+  name: Tugas Akhir
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Tugas Akhir']
+    priority: 0
+  - name: XPATH
+    value: //li[11]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div[1]/div/ul/li[1]/ul/li[11]/a
+    priority: 2
+- id: 4fC5P8mf0EWvgnU3gvbBjw
+  name: Pedoman Akademik
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Pedoman Akademik']
+    priority: 0
+  - name: XPATH
+    value: //li[1]/ul/li[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div[1]/div/ul/li[1]/ul/li[3]/a
+    priority: 2
+projectParameters: []
+addons: []
