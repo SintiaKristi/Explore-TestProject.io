@@ -1,7 +1,7 @@
-id: _cQuQ4fxm0aP_BviuJZBKg
+id: P6_9tp3w3U-5YKXiZmhyPQ
 projectId: _EitVDJPWE6jfP06yEFqvQ
 projectName: ExploreTestProject
-created: 2021-10-29T03:29:53.2271204Z
+created: 2021-10-29T03:32:11.1810370Z
 protocol: 1
 tests:
 - id: cPQlDZrC90yX_3pQUDy1kw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-08-19T05:28:50.0000000
-  modificationDate: 2021-09-29T04:10:12.0000000
+  modificationDate: 2021-10-29T03:31:32.0000000
   settings:
     automationAssistant: true
     appId: V-RCnpQW0UaRm0YE6orzMw
@@ -201,10 +201,30 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 9UVh8PUsIEC77FOiWgYY3w
+  - id: dyU0tLGGNU2RN8I6KuabOA
+    comments: ''
     enabled: true
     invertResult: false
     order: 9
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 43b4408f-3fa1-4ec5-80cd-872d6dff7628
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9UVh8PUsIEC77FOiWgYY3w
+    enabled: true
+    invertResult: false
+    order: 10
     repeat: 1
     type: Action
     elementId: LbHw7623B0-A7ZEVO3y8rg
@@ -224,7 +244,7 @@ tests:
   - id: 82ApNzANKke4iWHFCcYkZA
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     settings:
@@ -246,7 +266,7 @@ tests:
   - id: plfd9O2ze0SBNP72MmQXuw
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     settings:
@@ -268,7 +288,7 @@ tests:
   - id: kHeoR9zZeEGjkxXzOFzkug
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     settings:
@@ -290,7 +310,7 @@ tests:
   - id: BecaGf9zWkqUmm9kQo4LRA
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Action
     elementId: mdHUPsfi1UOGJdUfA1JAnA
@@ -310,7 +330,7 @@ tests:
   - id: dZ5F-bYvf0uvCkhs0Chk3g
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Action
     elementId: 4fC5P8mf0EWvgnU3gvbBjw
